@@ -115,6 +115,7 @@ class Qdensitymatrix:
         
         """
         !Note: This currently works only for density matrix with 2d subsystems.
+        #Todo Add functionality for n dimensions
         
         Function that partially traces a given density matrix according to bitstring and sig. bitstring is a list consisting of 0 and 1. Here 1 denotes the positions of the qubits (qudits) to be partially transposed. 
 
